@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clínica Médica</title>
+    </head>
+    <div class="header">
+        <header>
+            <img src="logo.png" alt />
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre a Clínica</a></li>
+                <li><a href="#atendimento">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <body class="container">
+        <img src="#" alt />
+        <h1>Bem-vindo à Clínica Médica Benjivet</h1>
+        <section id="inicio">
+            <p>
+                Na <mark>Clínica Veterinária Benjivet</mark> oferecemos
+                consultas veterinárias a valores que cabem no seu bolso. Além
+                disso, contamos com estrutura completa e milhares de tutores
+                satisfeitos.
+            </p>
+
+            Clínica veterinária referência em Belo Horizonte Fundada em 2023, a
+            <mark>Clínica Veterinária Benjivet</mark> possui milhares de tutores
+            satisfeitos e animais salvos em Belo Horizonte e região. Nossa
+            clínica oferece o mais alto padrão em atendimento veterinário e
+            estamos prontos para oferecer o melhor atendimento para você e seu
+            pet. Além disso, nossos médicos veterinários possuem especialização
+            em diversas áreas e contamos com um espaço acolhedor e moderno,
+            equipado com tecnologia de ponta para oferecer os melhores cuidados
+            ao seu pet.
+        </section>
+        <section id="sobre">
+            <h1>Mais sobre a clinica</h1>
+            <p>
+                Fundada em 2023, a
+                <mark>Clínica Veterinária Benjivet</mark> possui milhares de
+                tutores satisfeitos e animais salvos em Belo Horizonte e região.
+                Nossa clínica oferece o mais alto padrão em atendimento
+                veterinário e estamos prontos para oferecer o melhor atendimento
+                para você e seu pet.
+            </p>
+            <span
+                >Além disso, nossos médicos veterinários possuem especialização
+                em diversas áreas e contamos com um espaço acolhedor e moderno,
+                equipado com tecnologia de ponta para oferecer os melhores
+                cuidados ao seu pet.
+            </span>
+        </section>
+        <section id="atendimento">
+            <h1>Horario de atendimento</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clínica Geral</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Pediatria</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Oftalmologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="agendar">
+                <h3>Escolha seu horario de atendimento</h3>
+                <form action="#" method="post">
+                    <label for="servico">Serviço:</label>
+                    <select id="servico" name="servico">
+                        <option value="clinica_geral">Clínica Geral</option>
+                        <option value="oftalmologia">Oftalmologia</option>
+                    </select>
+
+                    <label for="dia_semana">Dia da Semana:</label>
+                    <select id="dia_semana" name="dia_semana">
+                        <option value="seg_sex">Segunda a Sexta</option>
+                        <option value="sab">Sábados</option>
+                        <option value="feriados">Feriados</option>
+                    </select>
+
+                    <label for="horario">Horário:</label>
+                    <input
+                        type="text"
+                        id="horario"
+                        name="horario"
+                        placeholder="Formato: 08h - 19h"
+                    />
+
+                    <button type="submit">Agendar</button>
+                </form>
+            </div>
+        </section>
+        <div id="contato">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.01368111966!2d-43.944252099999986!3d-19.9238283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6975f42e6c58b%3A0x1a43211255764d23!2sAv.%20Bias%20Fortes%2C%201122%20-%20Lourdes%2C%20Belo%20Horizonte%20-%20MG%2C%2030170-014!5e0!3m2!1spt-BR!2sbr!4v1700682223580!5m2!1spt-BR!2sbr"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+            <form action="seu_script_de_processamento.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required />
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="3"
+                    required
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar Formulário</button>
+            </form>
+        </div>
+    </body>
+    <footer class="footer">
+        <p>Contato: contato@clinica.com | Telefone: (11) 1234-5678</p>
+        &copy; 2023 Clínica Médica Benjivet
+    </footer>
+</html>
